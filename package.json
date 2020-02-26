@@ -1,0 +1,16 @@
+{
+  "name": "kafka-app",
+  "version": "1.0.0",
+  "description": "Messaging app with Kafka ",
+  "main": "y",
+  "scripts": {
+    "start": "node src/app/producer/producer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arvind rawat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafkajs": "^1.12.0"
+  }
+}
